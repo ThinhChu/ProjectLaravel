@@ -13,11 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    {{-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> --}}
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    {{-- <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css"> --}}
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -87,31 +87,7 @@
         </div>
     </div>
     <!-- Humberger End -->
-
-    <!-- Header Section Begin -->
-    @include('layouts.menu');
-    <!-- End Header Section Begin -->
-
-    <!-- Categories Section Begin -->
-    @include('layouts.dmsanpham');
-    <!-- End Categories Section Begin -->
-
-    <!-- Featured Section Begin -->
-    @include('sanpham');
-    <!-- Featured Section End -->
-
-    <!-- Banner Begin -->
-    @include('layouts.banner');
-    <!-- Banner End -->
-
-    <!-- Latest Product Section Begin -->
-    @include('sptodm');
-    <!-- Latest Product Section End -->
-
-    <!-- Blog Section Begin -->
-    @include('tintuc');
-    <!-- Blog Section End -->
-
+    @yield('content')
     <!-- Footer Section Begin -->
     <footer class="footer spad">
         <div class="container">
