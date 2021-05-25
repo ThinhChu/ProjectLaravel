@@ -1,8 +1,5 @@
 @extends('layouts.layout')
 @section('content')
-    <!-- Header Section Begin -->
-    @include('layouts.menu');
-    <!-- End Header Section Begin -->
 
     <!-- Categories Section Begin -->
     @include('layouts.dmsanpham');
@@ -23,4 +20,5 @@
     <!-- Blog Section Begin -->
     @include('tintuc');
     <!-- Blog Section End -->
+    
 @endsection

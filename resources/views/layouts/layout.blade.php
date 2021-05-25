@@ -87,6 +87,11 @@
         </div>
     </div>
     <!-- Humberger End -->
+    
+    <!-- Header Section Begin -->
+    @include('layouts.menu');
+    <!-- End Header Section Begin -->
+
     @yield('content')
     <!-- Footer Section Begin -->
     <footer class="footer spad">
